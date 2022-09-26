@@ -1,0 +1,25 @@
+{
+  "name": "asynchronism-course",
+  "version": "1.0.0",
+  "description": "Asynchronism course platzi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Herald-Flores/asynchronism-course.git"
+  },
+  "keywords": [
+    "JavaScript"
+  ],
+  "author": "Herald Flores",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Herald-Flores/asynchronism-course/issues"
+  },
+  "homepage": "https://github.com/Herald-Flores/asynchronism-course#readme",
+  "devDependencies": {
+    "standard": "17.0.0"
+  }
+}
