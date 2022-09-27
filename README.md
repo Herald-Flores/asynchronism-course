@@ -10,7 +10,7 @@
 
 Commands are run from the root of the project, from a terminal:
 
-| Command         | Action                                        |
-| :-------------- | :-------------------------------------------- |
-| `npm run build` | Generate dist files                           |
-| `npm run dev`   | Start server and Watch changes on the project |
+| Command            | Action            |
+| :----------------- | :---------------- |
+| `npm run callback` | Run callback file |
+| `npm run promise`  | run promise file  |
