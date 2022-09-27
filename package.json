@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "callback": "node src/callback/challenge.js",
+    "promise": "node src/promise/challenge.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,6 +25,8 @@
     "standard": "17.0.0"
   },
   "dependencies": {
+    "node-fetch": "^3.2.10",
     "xmlhttprequest": "^1.8.0"
-  }
+  },
+  "type": "module"
 }
