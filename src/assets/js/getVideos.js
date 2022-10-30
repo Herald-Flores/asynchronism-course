@@ -4,7 +4,7 @@ const videosContainer = null || document.getElementById('english-academy')
 const options = {
   method: 'GET',
   headers: {
-    'X-RapidAPI-Key': '752040bbc6msh8a523dcc0d4f1c6p170442jsn27e907cefd3a',
+    'X-RapidAPI-Key': process.env.RAPIAPIKEY,
     'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com'
   }
 }

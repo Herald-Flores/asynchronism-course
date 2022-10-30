@@ -4,11 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Platzi Project</title>
-    <link rel="icon" sizes="192x192" href="data:image/webp;base64,UklGRtQDAABXRUJQVlA4TMcDAAAvv8AvEA+EoG3bmD+z0Xp6DnM5Pgzbtg2bmyS3ncK2bZvuXeYNfDegDOcc7BzCYqDWIcAQADiJxgZRPIQHAMCFoBY/gBjAMJQT4mbFgRhAAGFxIAYhNkEhBIZWAF+gT5AFQNqtTYYk5axt27a9m2uObdv2TPz3RWVkxLNfI/oviW0jSZIixZnZe/e13VXoznwHB+vg4291PVPLIvNj7ZUfb+0KrOv890H511pre3cYc7a97pdia73pdgnhbI2TkrC6HvDN3QFJXI0n2WZvtaSvlbgRbM4Nicpq2Ic1DxdFafWfgJoXa6K2Js4gzUvRXHMXmCgHT2TqNDyRidM0ssQiUySyxSFjFLLGIHMEsuefgbwzkW9G8sxMfhnKK1P5ZCyPzOWPwbwxGZMl3YjMXYi6EQlBOSI8PdG+uMTTozXla2NZYpEpEtlisHgphIwhuBpC1hhkjkD2/DOQdybyzUiemckvQ3llKp+M5ZG5/DGYNybzxWbHPTHayGE/zNa1ywvD1ZT4YLpXSEL4pPnvOookhM+it2rts98N6xzUZpyLrpjmo3rLnLR2wC43vTHLTy1WOWp1u02uum6Srz5Y5KwKg7zVao+7Rs3x15w1Hkud+/6FYwtZ59oqgJHkF0ylzYlZPjKdNDt6AElf0vwiJPUpcxmR/EiYTZ16s+KZPEuYV3pW73omx4rP5mEGOR+2PGUkZQnTwUiuFp9TkEY3JFy+ZSTvQ/HpZbSwp/jsZyRfU16s7dnBAT3ju1OesXvWL3rzLCRMDaLmDSnTSWjmSEiZcUDrd0LSLPKRtyFtAH0Jmce/nyWps5geg8w/hUHm3whB7v83EeR+3EIg++NGAtkftwPI/7wJQP7nrf4ZuG7gnoXrNt6ZuG7mnYnrls7ZuG7MJGzqVOyma1bum3hm5r4VkrCjWzW/DN23dcvSfXMiIdxbM9pOZUwv8VDGlCqqFHGlhiwlbKmgSwFfyQhLxFgSyhJwVhhpBbFWCG0F8PZP6JWWhIBe5cYQqPsL7v5A3m/QK90SAlK6H9CLIuxFEfaiCHtRhL0owl4UYS+KsBdFKNN83l1eApXqdQ/Oogh7UQS2ixmvu2K9bzB7UYS9KMJeFEHpeZb3jdcL63372dO974+/b8Uh/H1D8Pdtwd83B3/fIvx9o/D37cLfNw1/3zr8fQPx923E3zcTf99S/H1j8fftxd83GX/favx9w/8D+7azlAH9uQXO4p8bAf/cDvjnpsA/twbZuUGqlM4NgrbuDCR/70n6c7Pgn1sG9Nw4A9bPjYN/bp8AAA==" />
+    <link
+      rel="icon"
+      sizes="192x192"
+      href="data:image/webp;base64,UklGRtQDAABXRUJQVlA4TMcDAAAvv8AvEA+EoG3bmD+z0Xp6DnM5Pgzbtg2bmyS3ncK2bZvuXeYNfDegDOcc7BzCYqDWIcAQADiJxgZRPIQHAMCFoBY/gBjAMJQT4mbFgRhAAGFxIAYhNkEhBIZWAF+gT5AFQNqtTYYk5axt27a9m2uObdv2TPz3RWVkxLNfI/oviW0jSZIixZnZe/e13VXoznwHB+vg4291PVPLIvNj7ZUfb+0KrOv890H511pre3cYc7a97pdia73pdgnhbI2TkrC6HvDN3QFJXI0n2WZvtaSvlbgRbM4Nicpq2Ic1DxdFafWfgJoXa6K2Js4gzUvRXHMXmCgHT2TqNDyRidM0ssQiUySyxSFjFLLGIHMEsuefgbwzkW9G8sxMfhnKK1P5ZCyPzOWPwbwxGZMl3YjMXYi6EQlBOSI8PdG+uMTTozXla2NZYpEpEtlisHgphIwhuBpC1hhkjkD2/DOQdybyzUiemckvQ3llKp+M5ZG5/DGYNybzxWbHPTHayGE/zNa1ywvD1ZT4YLpXSEL4pPnvOookhM+it2rts98N6xzUZpyLrpjmo3rLnLR2wC43vTHLTy1WOWp1u02uum6Srz5Y5KwKg7zVao+7Rs3x15w1Hkud+/6FYwtZ59oqgJHkF0ylzYlZPjKdNDt6AElf0vwiJPUpcxmR/EiYTZ16s+KZPEuYV3pW73omx4rP5mEGOR+2PGUkZQnTwUiuFp9TkEY3JFy+ZSTvQ/HpZbSwp/jsZyRfU16s7dnBAT3ju1OesXvWL3rzLCRMDaLmDSnTSWjmSEiZcUDrd0LSLPKRtyFtAH0Jmce/nyWps5geg8w/hUHm3whB7v83EeR+3EIg++NGAtkftwPI/7wJQP7nrf4ZuG7gnoXrNt6ZuG7mnYnrls7ZuG7MJGzqVOyma1bum3hm5r4VkrCjWzW/DN23dcvSfXMiIdxbM9pOZUwv8VDGlCqqFHGlhiwlbKmgSwFfyQhLxFgSyhJwVhhpBbFWCG0F8PZP6JWWhIBe5cYQqPsL7v5A3m/QK90SAlK6H9CLIuxFEfaiCHtRhL0owl4UYS+KsBdFKNN83l1eApXqdQ/Oogh7UQS2ixmvu2K9bzB7UYS9KMJeFEHpeZb3jdcL63372dO974+/b8Uh/H1D8Pdtwd83B3/fIvx9o/D37cLfNw1/3zr8fQPx923E3zcTf99S/H1j8fftxd83GX/favx9w/8D+7azlAH9uQXO4p8bAf/cDvjnpsA/twbZuUGqlM4NgrbuDCR/70n6c7Pgn1sG9Nw4A9bPjYN/bp8AAA=="
+    />
 
-    
-    <script type="module" crossorigin src="/assets/index.67c48127.js"></script>
-    <link rel="stylesheet" href="/assets/index.ebeac617.css">
+    <script
+      type="module"
+      crossorigin
+      src="https://herald-flores.github.io/asynchronism-course/assets/index.243a912c.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://herald-flores.github.io/asynchronism-course/assets/index.ebeac617.css"
+    />
   </head>
   <body>
     <!-- Navigation -->
@@ -143,7 +153,7 @@
       <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-[32rem]">
         <img
           class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-          src="/assets/herald-flores.968c5de0.png"
+          src="https://herald-flores.github.io/asynchronism-course/assets/herald-flores.968c5de0.png"
           alt="Herald Flores Dev"
         />
       </div>
@@ -228,7 +238,5 @@
         </div>
       </div>
     </footer>
-
-    
   </body>
 </html>
