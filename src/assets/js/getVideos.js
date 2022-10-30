@@ -1,8 +1,7 @@
 const API =
   'https://youtube-v31.p.rapidapi.com/search?channelId=UCgVjdxflkNOnn6FWPONXpIQ&part=snippet%2Cid&order=date&maxResults=10'
 const videosContainer = null || document.getElementById('english-academy')
-
-const APIKEY = import.meta.env.VITE_APIKEY
+const APIKEY = '85888d94acmshd5891289e10b3bap1fa039jsn62ae81abbc20'
 
 const options = {
   method: 'GET',

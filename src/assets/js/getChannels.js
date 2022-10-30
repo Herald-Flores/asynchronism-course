@@ -8,7 +8,7 @@ const fetchDataChannels = async () => {
     'https://youtube-v31.p.rapidapi.com/channels?part=snippet%2Cstatistics&id=UCJZv4d5rbIKd4QHMPkcABCw',
     'https://youtube-v31.p.rapidapi.com/channels?part=snippet%2Cstatistics&id=UCw05fUBPwmpu-ehXFMqfdMw'
   ]
-  const APIKEY = import.meta.env.VITE_APIKEY
+  const APIKEY = '85888d94acmshd5891289e10b3bap1fa039jsn62ae81abbc20'
 
   const options = {
     method: 'GET',
