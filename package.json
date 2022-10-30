@@ -6,14 +6,21 @@
   "scripts": {
     "callback": "node src/callback/challenge.js",
     "promise": "node src/promise/challenge.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Herald-Flores/asynchronism-course.git"
   },
   "keywords": [
-    "JavaScript"
+    "JavaScript",
+    "ES6",
+    "callback",
+    "Promise",
+    "Async Await"
   ],
   "author": "Herald Flores",
   "license": "MIT",
@@ -22,11 +29,17 @@
   },
   "homepage": "https://github.com/Herald-Flores/asynchronism-course#readme",
   "devDependencies": {
-    "standard": "17.0.0"
+    "autoprefixer": "10.4.12",
+    "gh-pages": "^4.0.0",
+    "postcss": "8.4.18",
+    "postcss-nested": "6.0.0",
+    "standard": "17.0.0",
+    "tailwindcss": "^3.2.1",
+    "vite": "3.2.0"
   },
   "dependencies": {
-    "node-fetch": "^3.2.10",
-    "xmlhttprequest": "^1.8.0"
+    "node-fetch": "3.2.10",
+    "xmlhttprequest": "1.8.0"
   },
   "type": "module"
 }
